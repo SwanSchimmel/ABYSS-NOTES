@@ -18,9 +18,13 @@ Instead of storing notes in a traditional list, your ideas become glowing nodes 
 🖱️ Drag & drop note nodes
 
 🔗 Visual connections between notes
+
 💾 Automatic LocalStorage saving
+
 📱 Responsive design (desktop & mobile)
+
 🌌 Animated underwater atmosphere
+
 🚀 Technologies
 HTML5
 CSS3
