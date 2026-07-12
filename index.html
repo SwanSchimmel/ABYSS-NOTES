@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Abyss Notes</title>
+
+<link
+rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link
+rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="/styles/styles.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- Ocean -->
+<!-- ========================= -->
+
+<div id="ocean">
+
+<canvas id="bgCanvas"></canvas>
+
+<div id="gradient"></div>
+
+<div id="light"></div>
+
+<div id="noise"></div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Logo -->
+<!-- ========================= -->
+
+<header id="logo">
+
+<svg
+viewBox="0 0 120 120"
+width="70"
+height="70">
+
+<circle
+cx="60"
+cy="45"
+r="24"
+fill="#10d8ff"/>
+
+<circle
+cx="50"
+cy="40"
+r="3"
+fill="#02111d"/>
+
+<circle
+cx="70"
+cy="40"
+r="3"
+fill="#02111d"/>
+
+<path
+d="
+
+M35 60
+
+Q25 80 35 95
+
+M45 62
+
+Q40 82 47 102
+
+M58 64
+
+Q58 85 58 108
+
+M70 62
+
+Q78 82 73 102
+
+M82 60
+
+Q95 80 84 95
+
+"
+
+stroke="#10d8ff"
+
+stroke-width="5"
+
+fill="none"
+
+stroke-linecap="round"/>
+
+</svg>
+
+<div>
+
+<h1>Abyss</h1>
+
+<p>Notes</p>
+
+</div>
+
+</header>
+
+<!-- ========================= -->
+<!-- Toolbar -->
+<!-- ========================= -->
+
+<div id="toolbar">
+
+<button id="newBtn">
+
+＋
+
+<span>New</span>
+
+</button>
+
+<button id="linkBtn">
+
+🔗
+
+</button>
+
+<button id="deleteBtn">
+
+🗑
+
+</button>
+
+<button id="saveBtn">
+
+💾
+
+</button>
+
+</div>
+
+<!-- ========================= -->
+<!-- Graph -->
+<!-- ========================= -->
+
+<div id="workspace">
+
+<svg id="lines"></svg>
+
+<div id="nodes"></div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Editor -->
+<!-- ========================= -->
+
+<aside id="editor">
+
+<input
+
+id="title"
+
+placeholder="Title">
+
+<textarea
+
+id="content"
+
+placeholder="Write your thoughts...">
+
+</textarea>
+
+<div id="info">
+
+Saved locally
+
+</div>
+
+</aside>
+
+<script src="/scripts/app.js"></script>
+
+</body>
+
+</html>
